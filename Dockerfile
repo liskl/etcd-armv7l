@@ -6,6 +6,5 @@ ENV ETCD_UNSUPPORTED_ARCH=arm
 
 ADD etcd /etcd
 
-
 ENTRYPOINT ["/etcd"]
 
